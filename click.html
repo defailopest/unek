@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <link rel="stylesheet" type="" href="click.css">
+    <title>log in form</title>
+</head>
+
+
+<body>
+
+
+
+<div class="menu">
+<ul>
+<a href="#" onclick="showLogin()">Login</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+<a href="#">About Us</a>
+<a href="#">Home</a>
+</ul>
+</div>
+<div class="container">
+  <div class="card">
+   <div class="heading-btns" id="h-btns">
+             <button type="button" class="open-log" id="open" onclick="openLogin()">Login</button>
+             <button type="button" class="open-reg" id="open" onclick="openReg()">Register</button>
+             </div>
+    <div class="inner-box" id="card">
+        <div class="card-front">
+            <h2>Login form</h2>
+            <form method="post" action="">
+            <br>
+              <input type="email" name="email" class="input-box" placeholder="Email address" required>
+              <input type="password" name="password" class="input-box" id="myInputs" placeholder="Enter password" required>
+              <i class="fa fa-eye-lash" onclick="myFunction()">g</i>
+              <input type="checkbox"><span>Remember password</span>
+              <button type="submit" class="submit-btn">Login</button>
+              
+            </form>
+             
+             <a href="#">forgot password</a>
+          </div>
+          <div class="card-back">
+              <h2>REGISTER</h2>
+            <form method="post" action="">
+            <input type="text" name="username" class="input-box" placeholder="Enter your username" required>
+            <input type="email" name="email" class="input-box" id="myInput" placeholder="enter your email" required>
+            <input type="password" name="password" class="input-box" id="inputs" placeholder="enter your email" required>
+           <i class="fa fa-eye-slash" onclick="patterson()">g</i>
+           <button type="submit" class="submit-btn">submit</button>
+           <input type="checkbox"><span>Remember Me</span>
+
+            </form>
+            <!-- <button type="button" class="btn" onclick="openLogin()">I'm a member</button> -->
+            <!-- <a href="#">Forgot password</a> -->
+        </div>
+     </div>
+  </div>
+    
+    
+</div>
+<script src=click.js></script>
+    </body>
+</html>
